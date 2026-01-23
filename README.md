@@ -1,2 +1,7 @@
 # statki_jp_projekt
-Projekt gra w statki
+Program to gra w statki PvP. Zawiera następujące klasy:
+-gra -Zawiera planszę gracza, na której rozstawia swoje statki, oraz przeciwnika, na której oddaje strzały. Zawiera również metodę odpowiedzialną za oddawanie strzałów.
+-boat2 -Klasa definiująca statek długości dwóch modułów, będąca klasą podstawową dla klas definiująchych statki innej długości. Zawiera parametry określające współrzędne modułów oraz ilość nieuszkodzonych modułów. Zawiera metody służące do ustawienia statków na planszy, tak żeby statki mieściły się na planszy i nie kolidowały ze sobą. Zawiera również metodę sprawdzającą czy statek został trafiony oraz czy został zatopiony.
+-pozostałe klasy określające statki innej długości dziedziczą po klasie boat2 metody, lub dostosowują je do innej długości statku.
+-module -Klasa zawierająca współrzędne modułu oraz jego stan(trafiony/nietrafiony)
+Na początku gry każdy z graczy ustawia po kolei swoje statki, najpierw wpisując współrzędne początku statku, a następnie wybierając z opcji wyświetlonych na terminalu współrzędne końca statku. Po ustawieniu wszystkich statków możliwy jest reset planszy i ponowne rozstawienie. Kiedy obaj gracze rozstawią swoje statki rozpoczyna się gra. Gracze strzelają na zmianę wpisując współrzędne strzału. Jeżeli gracz trafił statek przeciwnika, strzela dalej, aż spudłuje. Gra toczy się do momentu aż któremuś z graczy nie zostanie już żaden niezatopiony statek. Wynik gry zapisywany jest do pliku wyniki.txt.
