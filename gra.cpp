@@ -74,7 +74,12 @@ wsp gra::shot(gra &g){
         cout<<"Wybierz rząd, wpisz literę"<<endl;
         w.xw=slownik();
         cout<<"Wybierz kolumnę, wpisz cyfrę"<<endl;
-        cin>>w.yw;
+        if (!(cin>>w.yw)){
+            cin.clear();
+            cin.ignore(1000,'\n');
+            cout<<"Błąd, podaj numer"<<endl;
+            continue;
+        }
         if((w.xw>0)&&(w.yw>0)&& (w.xw<11)&&(w.yw<11)){
             if(tabop[w.xw][w.yw]=="[~]"){
                 if(g.tabown[w.xw][w.yw]=="[~]"){
