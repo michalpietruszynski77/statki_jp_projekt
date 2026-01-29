@@ -13,7 +13,6 @@ boat5(int x1, int y1);
 void cord(string plansza[11][11]);
 void Set_mod();
 void wypiszloc();
-~boat5();
 void test();
 };
 
