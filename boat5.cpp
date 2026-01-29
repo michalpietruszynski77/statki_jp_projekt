@@ -7,10 +7,6 @@ boat5::boat5(){
     tabmod=new module[len];
 }
 
-boat5::~boat5(){
-    delete [] tabmod;
-    delete [] loc;
-}
 boat5::boat5(int x1, int y1){
     HP=5;
     loc=new int[10];
