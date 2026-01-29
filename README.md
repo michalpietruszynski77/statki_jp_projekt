@@ -9,4 +9,4 @@ Program posiada plik Makefile do łatwej kompilacji. Aby skompilować program na
 
 W celu przestestowania działania programu należy wpisać jedną z poniższych list poleceń w terminalu:
 1) Test bez rozstawiania z przykładową planszą: 3,b,2,c,2,d,2,e,2,f,2,b,5,b,6,b,7,b,8,e,4,f,4,g,4,h,7,h,8,h,9,i,2,i,3,i,5,j,5,e,8,f,8
-2) Pełen test programu: 1,b,2,1,b,5,4,e,4,1,h,7,4,i,2,4,i,5,1,f,8,3,1
+2) Pełen test programu: 1,b,2,1,b,5,4,e,4,1,h,7,4,i,2,4,i,5,1,f,8,3,1,b,2,1,b,5,4,e,4,1,h,7,4,i,2,4,i,5,1,f,8,3,1,b,2,c,2,d,2,e,2,f,2,b,5,b,6,b,7,b,8,e,4,f,4,g,4,h,7,h,8,h,9,i,2,i,3,i,5,j,5,e,8,f,8
