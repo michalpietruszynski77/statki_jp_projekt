@@ -18,12 +18,6 @@ boat3::boat3(int x1, int y1){
 
 }
 
-
-boat3::~boat3(){
-    delete [] tabmod;
-    delete [] loc;
-}
-
 void boat3::wypiszloc(){
     cout<<loc[0]<<" "<<loc[1]<<" "<<loc[2]<<" "<<loc[3]<<" "<<loc[4]<<" "<<loc[5]<<endl;
 }
