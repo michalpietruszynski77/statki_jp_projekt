@@ -17,15 +17,6 @@ boat2 bw;
 int k;
 int num;
 k=start();
-// if(k==2){
-//     gra g1(1), g2(1);
-//     boat5 b151(1), b251(1);
-//     boat4 b141(1), b241(1);
-//     boat3 b131(1), b132(2), b231(1), b232(2);
-//     boat2 b121(1),b122(2),b123(3), b221(1),b222(2),b223(3);
-//     cout<<"Testowe ustawienia"<<endl;
-//     g1.wypisz_tabown();
-// }
 
 gra g1, g2;
 boat5 b151, b251;
